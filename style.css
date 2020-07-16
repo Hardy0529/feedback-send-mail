@@ -1,0 +1,192 @@
+@charset "UTF-8";
+body {
+  -webkit-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  transition-duration: 0.6s;
+  width: 100%;
+  height: 500px;
+  text-align: center;
+  font-family: 微軟正黑體;
+  padding: 0px;
+  margin: 0px;
+  background-color: #222; }
+
+.hlogo {
+  width: 170px;
+  height: auto;
+  padding-top: 7px;
+  left: 30px;
+  position: absolute; }
+
+.headbar {
+  width: 100%;
+  height: 57px;
+  background-color: #222;
+  position: relative;
+  z-index: 200; }
+
+.mail {
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  width: 75%;
+  height: 300px;
+  background-color: #FFFACF7;
+  position: fixed;
+  bottom: 0px;
+  text-align: left;
+  padding: 30px;
+  letter-spacing: 3px;
+  -webkit-box-shadow: 0px 0px 29px 0px rgba(51, 51, 102, 0.5);
+  box-shadow: 0px 0px 29px 0px rgba(51, 51, 102, 0.5);
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  background-image: url("https://karenbethjones.files.wordpress.com/2013/09/paper-texture-2-white-300dpi.jpg");
+  background-size: cover; }
+
+.totext {
+  padding-bottom: 30px; }
+
+h4.mainfield {
+  font-size: 14px;
+  font-weight: 200;
+  line-height: 10px; }
+
+.inline {
+  display: inline; }
+
+.lineinput {
+  background-color: rgba(0, 0, 0, 0.1);
+  color: #333;
+  font-size: 14px;
+  padding-left: 10px;
+  letter-spacing: 2px;
+  width: 200px;
+  -webkit-transition-duration: 0.7s;
+  -o-transition-duration: 0.7s;
+  transition-duration: 0.7s; }
+  .lineinput:hover {
+    background-color: rgba(255, 255, 255, 0); }
+
+.maininput {
+  width: 95%;
+  height: 400px;
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: rgba(0, 0, 0, 0.1);
+  -webkit-transition-duration: 1s;
+  -o-transition-duration: 1s;
+  transition-duration: 1s; }
+  .maininput:hover {
+    background-color: rgba(255, 255, 255, 0); }
+
+.sendmail {
+  width: 100px;
+  height: 20px;
+  padding-top: 10px;
+  background-color: transparent;
+  border-width: 1px;
+  border-style: solid;
+  border-color: #282120;
+  border-radius: 4px;
+  text-align: center;
+  color: 282120;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  display: block;
+  position: absolute;
+  right: 20px;
+  top: 200px;
+  cursor: pointer; }
+  .sendmail:hover {
+    background-color: #282120;
+    color: white; }
+
+.linemail {
+  z-index: 500;
+  width: 105px;
+  height: 67px;
+  opacity: 0;
+  position: fixed;
+  border-style: solid;
+  border-color: #eee;
+  border-width: 4px;
+  bottom: 150px;
+  left: 30%;
+  z-index: 300;
+  -webkit-transition-duration: 0.9s;
+  -o-transition-duration: 0.9s;
+  transition-duration: 0.9s;
+  -webkit-transition-delay: 0.3s;
+  -o-transition-delay: 0.3s;
+  transition-delay: 0.3s;
+  -webkit-transform: rotateZ(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotateZ(0deg);
+  overflow: hidden;
+  position: fixed; }
+
+.lineinner {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  left: 0px;
+  top: -160px;
+  border-style: solid;
+  border-color: #eee;
+  border-width: 4px;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transform: rotateZ(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotateZ(45deg); }
+
+.tosay {
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%);
+  letter-spacing: 10px;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  top: 20%;
+  letter-spacing: 5px;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  left: 50%;
+  transform: translateX(-50%); }
+
+.sendok {
+  left: 47%;
+  position: fixed;
+  font-size: 18px;
+  color: white;
+  top: 50%;
+  left: 50%;
+  letter-spacing: 2px;
+  opacity: 0;
+  -webkit-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -webkit-transition-delay: 0.5s;
+  -o-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+  -webkit-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-50%); }
+
+.bigok {
+  font-size: 60px;
+  letter-spacing: 2px; }
